@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("https://alif.mobi/images/backgrounds/hero-bg.png");
+}
+/* .hero-logo {
+    position: absolute;
+    display: flex;
+    flex-direction:column-reverse;
+    color: rgb(243, 79, 14);
+} */
+.header{
+    width: 80%;
+    margin: 0 auto;
+}
+.main{
+    position: relative;
+}
+.block-phone{
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.phone1{
+    z-index: 1;
+}
+.phone2{
+    position: absolute;
+    left: 36%;
+    z-index: 5;
+}
+.block-left1{
+    width: 40%;
+    float: left;
+    color:white;
+
+}
+.app{
+    width: 200px;
+}
+.block-left2{
+    width: 100%;
+    border: 0px solid;
+}
+.app2{
+    width: 210px;
+
+}
+.block{
+    position: relative;
+    width: 100%;
+}
+.main .body-img{
+    width: 100%;
+}
+
